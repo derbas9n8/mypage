@@ -1,0 +1,45 @@
+
+			.header{
+				background-color: white;
+				display: flex;
+				flex-direction: row;
+				height: 55px;
+				border-color: gray; 
+				justify-content: space-between;
+				margin-bottom: 100px;
+				position: fixed;
+				top: 0px;
+				right: 0p;
+				left: 0px;
+				height: 50px;
+				width: 100%;
+				border-bottom-width : 1px ;
+				border-bottom-color: lightgrey;
+				border-bottom-style:solid ;
+				z-index: 100;
+
+
+			}
+			.section1{
+				display: flex;
+				align-items: center;
+
+			}
+			.section2{
+				display: flex;
+				align-items: center;
+
+				 flex: 1;
+				 margin-left: 100px;
+				 margin-right: 35px;
+				 max-width: 700px;
+
+					}
+             .section3{
+             	display: flex;
+				align-items: center;
+				width: 250px;
+			   justify-content: space-between;
+			   margin-right: 40px;
+			   flex-shrink: 0;
+			}
